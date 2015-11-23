@@ -52,7 +52,7 @@ ggplot(allBibViz) +
   ggtitle("Number of critical works published by year")
 
 
-#Read in txt file and separate each line of Primary
+#Read in txt file and separate each line of Primary (for Sims bibliography)
 LJPrim = scan("data/LJPrimary.txt", character(0), sep = "\n")
 LJPrimDF = LJPrim %>% data.frame()
 LJPrimDF = LJPrimDF %>% mutate(year=gsub(".*(\\d{4}).*","\\1",.)) 
@@ -81,10 +81,42 @@ ggplot(primByYear) +
   geom_point(size=count,alpha=.6,color="blue") 
 
 
-#combine Bib and Primary
-bibAndPrim <- rbind(allBibViz, primByYear)
 
-ggplot(bibAndPrim) +   
+#Read in txt file and separate each line of Primary (from Art of Fact TOC)
+LJtoc = scan("data/ArtofFactTOC.txt", character(0), sep = "\n")
+LJtocDF = LJtoc %>% data.frame()
+LJtocDF = LJtocDF %>% mutate(year=gsub(".*(\\d{4}).*","\\1",.)) 
+LJtocDF = LJtocDF %>% mutate("year" = as.numeric(year))
+LJtocDF = LJtocDF %>% mutate(author=gsub(".*( / )","\\1",.))
+LJtocDF = LJtocDF %>% mutate(author=gsub("( --).*","\\1",LJtocDF$author))
+LJtocDF = LJtocDF %>% mutate(author=gsub("[[:punct:]]","\\1",LJtocDF$author))
+LJtocDF = LJtocDF %>% mutate(author=gsub(".*( [A-Z])","\\1",LJtocDF$author))
+LJtocDF = LJtocDF %>% mutate(author=gsub(" ","\\1",LJtocDF$author))
+LJtocDF = LJtocDF %>% unite(id, author, year, sep = "_")
+
+
+#Visualizing Primary texts by year
+LJtocDFYear = LJtocDF  %>% 
+  group_by(year) %>%
+  mutate(count=n()) %>% 
+  mutate(src = "Prim")
+
+ggplot(LJtocDFYear) + 
+  geom_line(colour="blue") + 
+  aes(x=year,y=count) + 
+  geom_point(size=count,alpha=.6,color="blue") + 
+  geom_smooth(method="loess")
+
+
+
+
+#combine Bib and Primary
+bibAndPrim <- rbind(allBibViz, primByYear, LJtocDFYear) 
+
+
+bibAndPrim %>%
+  filter(year>1850) %>%
+  ggplot() +
   geom_line() +
   aes(x=year,y=count, color=src) + 
   geom_point(size=count,alpha=.6) + 
