@@ -77,32 +77,39 @@ server <- function(input, output) {
   # Gender tab
   # sorted columns are colored now because CSS are attached to them
   output$GenderPlot <- renderPlotly({
+
     
-    # Render a barplot
-    if (input$gender == "All") {
-      genderFilter = allBib %>%
-        filter(Year >= input$Year3[1]) %>%
-        filter(Year <= input$Year3[2]) %>%
-        filter(gender != "Anonymous", Year >= 1800) %>%
-        group_by(gender) %>% 
-        mutate(gendercount = n()) %>% 
-        ggplot() +
-        geom_bar() +
-        aes(x=Year, fill=gender)
-    }
+ 
+      # Render a barplot
+      if (input$gender == "All") {
+        genderFilter = allBib %>%
+          filter(Year >= input$Year3[1]) %>%
+          filter(Year <= input$Year3[2]) %>%
+          filter(gender != "Anonymous", Year >= 1800) %>%
+          group_by(gender) %>% 
+          mutate(gendercount = n()) %>% 
+          ggplot() +
+          geom_bar() +
+          aes(x=Year, fill=gender) + 
+          if (input$sepgraph == TRUE) {facet_wrap( ~ gender,ncol = 1)  
+          }
+      }
+      
+      if (input$gender != "All") {
+        genderFilter = allBib %>%
+          filter(Year >= input$Year3[1]) %>%
+          filter(Year <= input$Year3[2]) %>%
+          filter(gender != "Anonymous", Year >= 1800) %>%
+          filter(gender == input$gender) %>%
+          group_by(gender) %>% 
+          mutate(gendercount = n()) %>% 
+          ggplot() +
+          geom_bar() +
+          aes(x=Year, fill=gender)  
+          
+      }
+
     
-    if (input$gender != "All") {
-      genderFilter = allBib %>%
-        filter(Year >= input$Year3[1]) %>%
-        filter(Year <= input$Year3[2]) %>%
-        filter(gender != "Anonymous", Year >= 1800) %>%
-        filter(gender == input$gender) %>%
-        group_by(gender) %>% 
-        mutate(gendercount = n()) %>% 
-        ggplot() +
-        geom_bar() +
-        aes(x=Year, fill=gender,text = paste(paste(gender, "authored:"), gendercount))
-    }
     genderFilter
   })
   
@@ -166,6 +173,8 @@ ui <- fluidPage(
                       "female","male")),
         sliderInput("Year3", "Year:",
                     min = 1800, max = 2017, value = c(1800,2017),sep = ""),
+        checkboxInput("sepgraph", "Separate graphs", FALSE),
+        verbatimTextOutput("value"),
         hr()
         
         #        helpText('Click the column header to sort a column.')
