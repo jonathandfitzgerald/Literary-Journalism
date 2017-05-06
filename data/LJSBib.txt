@@ -30,8 +30,8 @@ Carey, John. Introduction. Ed. John Carey. The Faber Book of Reportage. London: 
 Carrillo, Maria. “Great Expectations: The Virginian-Pilot’s Commitment to Storytelling.” Points-of-Entry: Cross-Currents in Storytelling 2, no.1 (2004): 11–13.
 Chance, Jean, and William McKeen. Introduction. Literary Journalism: A Reader. Ed. Jean Chance and William McKeen. Belmont, Calif.: Wadsworth, 2001. vii–xiv.
 Cheney, Theodore A. Rees. Writing Creative Nonfiction: Fiction Techniques for Crafting Great Nonfiction. Cincinnati: Ten Speed Press, 2000.
-Anon., “Chronicle and Comment.” The Bookman 14 (Oct. 1901): 110–11.
-Clark, Roy Peter. “Tell Me a Story.” Poynter Online 12 December 2003. Accessed 14 April 2004 <http://www.poynter.org/content/content_view.asp?id=51437>.
+Anonymous, Anonymous. “Chronicle and Comment.” The Bookman 14 (Oct. 1901): 110–11.
+Clark, Roy Peter. “Tell Me a Story.” Poynter Online 12 December 2003.
 Connery, Thomas B. “Discovering a Literary Form.” A Sourcebook of American Literary Journalism: Representative Writers in an Emerging Genre. Ed. Thomas B. Connery. New York: Greenwood Press, 1992. 3–37.
 Connery, Thomas B. “Fiction/Nonfiction and Sinclair’s The Jungle: Drinking from the Same Well.” Journalism History 34 (Fall 2008): 167–70.
 Connery, Thomas B. “Hutchins Hapgood.” A Sourcebook of American Literary Journalism: Representative Writers in an Emerging Genre. Ed. Thomas B. Connery. New York: Greenwood Press, 1992. 121–29.
@@ -54,7 +54,7 @@ Fishkin, Shelley Fisher. From Fact to Fiction: Journalism and Imaginative Writin
 Fishwick, Marshall. “Editorial.” Journal of Popular Culture 9, no. 1 (Summer 1975): 247/149-249/151. 20th century; Magazines, books; Interaction of New Journalism and popular culture.
 Fishwick, Marshall. “Popular Culture and the New Journalism.” Journal of Popular Culture 9, no. 1 (Summer 1975): 99/1-105/7. 20th century; Tom Wolfe; New Journalism; Books, magazines; Popular culture.
 Flis, Leonora. Factual Fictions: Narrative Truth and the Contemporary American Documentary Novel. Newcastle upon Tyne, U.K.: Cambridge Scholars Publishing, 2010.
-Forché, Carolyn, and Philip Gerard, eds. Writing Creative Nonfiction: Instruction and Insights from the Teachers of the Associated Writing Programs. Cincinnati: Story Press, 2001.
+Forché, Carolyn, and Philip Gerard, eds. Writing Creative Nonfiction: Instruction and Insights from the Teachers of the Associated Writing Programs. Cincinnati: Story Press, 2001.
 Ford, Edwin H. “The Art and Craft of the Literary Journalist.” Survey of Journalism. Ed. George Fox Mott. New York: Barnes and Noble, 1937. 294–302.
 Ford, Edwin H. A Bibliography of Literary Journalism is America. Minneapolis: Burgess Publishing Co., 1937.
 Forde, Kathy Roberts. “How Masson v. New Yorker Has Shaped the Legal Landscape of Narrative Journalism.” Communication Law & Policy 10 (Winter 2005): 101–33.
@@ -155,7 +155,7 @@ Peck, David. “Joseph North and the Proletarian Reportage of the 1930s.” Zeit
 Peeler, David P. “Unlonesome Highways: The Quest for Fact and Fellowship in Depression America.” Journal of American Studies 18, no. 2 (1984): 186–206.
 Pizer, Donald. “Documentary Narrative as Art: William Manchester and Truman Capote.” The Reporter as Artist: A Look at the New Journalism Controversy. Ed. Ronald Weber. New York: Hastings House, 1974. 207–19.
 Podhoretz, Norman. “The Article as Art.” Harper’s July 1958: 74–79.
-Anon., “The Point of View: The Newspaper and Fiction.” Scribner’s Magazine 40 (1906): 122–24.
+Anonymous, Anonymous. “The Point of View: The Newspaper and Fiction.” Scribner’s Magazine 40 (1906): 122–24.
 Polsgrove, Carol. “Gay Talese.” A Sourcebook of American Literary Journalism: Representative Writers in an Emerging Genre. Ed. Thomas B. Connery. New York: Greenwood Press, 1992. 261–71.
 Powers, Thomas. “Cry Wolfe.” Commonweal 102 (1975): 497–99.
 Quinn, Katrina J. “Exploring an Early Version of Literary Journalism: Nineteenth-century Epistolary Journalism,” Literary Journalism Studies 3, no. 1 (Spring 2011): 33–51.
@@ -164,10 +164,11 @@ Rischin, Moses. Introduction. Grandma Never Lived in America: The New Journalism
 Roberts, Arthur. “Lillian Ross.” A Sourcebook of American Literary Journalism: Representative Writers in an Emerging Genre. Ed. Thomas B. Connery. New York: Greenwood Press, 1992. 231–37.
 Roberts, Nancy. “Dorothy Day.” A Sourcebook of American Literary Journalism: Representative Writers in an Emerging Genre. Ed. Thomas B. Connery. New York: Greenwood Press, 1992. 179–85.
 Robertson, Michael. “Stephen Crane.” A Sourcebook of American Literary Journalism: Representative Writers in an Emerging Genre. Ed. Thomas B. Connery. New York: Greenwood Press, 1992. 69–79.
-Robertson, Michael. Stephen Crane, Journalism, and the Making of Modern American Literature. New York: Columbia University Press, 1997. Roggenkamp, Karen. Narrating the News: New Journalism and Literary Genre in Late Nineteenth-Century American Newspapers and Fiction. Kent, Ohio: Kent State University Press, 2005.
-Readership Institute. Impact Study. Media Management Center. Evanston, Ill.: Northwestern University, 2000. 15 April 2007 http://www.readership.org/resources/impact_study.htm
-Reportage preface. Proletarian Literature in the United States: An Anthology. Ed. Granville Hicks, et al. New York: International Publishers, 1935. 211–12.
-Reynolds, Bill “Recovering the Peculiar Life and Times of Tom Hedley andCanadian New Journalism.” Literary Journalism Studies 1, no. 1 (Spring 2009): 79–104.
+Robertson, Michael. Stephen Crane, Journalism, and the Making of Modern American Literature. New York: Columbia University Press, 1997. 
+Roggenkamp, Karen. Narrating the News: New Journalism and Literary Genre in Late Nineteenth-Century American Newspapers and Fiction. Kent, Ohio: Kent State University Press, 2005.
+Anonymous, Anonymous. Readership Institute. Impact Study. Media Management Center. Evanston, Ill.: Northwestern University, 2000. 15 April 2007 http://www.readership.org/resources/impact_study.htm
+Anonymous, Anonymous. Reportage preface. Proletarian Literature in the United States: An Anthology. Ed. Granville Hicks, et al. New York: International Publishers, 1935. 211–12.
+Reynolds, Bill “Recovering the Peculiar Life and Times of Tom Hedley and Canadian New Journalism.” Literary Journalism Studies 1, no. 1 (Spring 2009): 79–104.
 Roiland, Joshua. “Getting Away from It All: The Literary Journalism of David Foster Wallace and Nietzsche’s Concept of Oblivion.” Literary Journalism Studies 1, no. 2 (Fall 2009): 89–105.
 Russell, John. Reciprocities in the Nonfiction Novel. Athens, Ga.: University of Georgia Press, 2000.
 Ryan, Maureen. “Green Visors and Ivory Towers: Jean Stafford and the New Journalism.” The Kenyon Review 16, no. 4(1994): 102–19.
@@ -191,9 +192,9 @@ Steiner, Linda. “Joe McGinniss.” A Sourcebook of American Literary Journalis
 Sternbergh, Adam. “How James Salter Wrote an Eleven-Page Biography of A.J. Liebling.” In The 6th Floor (blog). New York Times, April 21, 2011. http://6thfloor.blogs.nytimes.com/2011/04/21/how-james-salter-wrote-an-eleven- page-biography-of-a-j-liebling/?ref=thenewyorker. 20th century; James Salter; Sketch; Book; A.J. Liebling.
 Stott, William. Documentary Expression and Thirties America. New York: Oxford University Press, 1973.
 Talese, Gay. ”Origins of a Nonfiction Writer.” Writing Creative Nonfiction: The Literature of Reality. Ed. Gay Talese and Barbara Lounsberry. New York: HarperCollins), 1996. 1–25.
-Anon., “Talking about Narrative Journalism.” Nieman Reports Fall 2000: 20–22.
+Anonymous, Anonymous. “Talking about Narrative Journalism.” Nieman Reports Fall 2000: 20–22.
 Thompson, Matthew. “Outrider: William T. Vollmann, Tony Tanner, and the Private Extremes of an Anti-Journalism,” Literary Journalism Studies 3, no. 1 (Spring 2011): 73–95.
-Thompson, Maurice. “The Prospect of Fiction.” The Independent 52 (1900): 1182–83.
+Thompson, Maurice. “The Prospect of Fiction.” The Independent 52 (1900).
 Troyer, Howard William. Ned Ward of Grubstreet: A Study of Sub-Literary London in the Eighteenth Century. Cambridge: Harvard University Press, 1946.
 Van Dellen, Robert J. “We've Been Had by the New Journalism: A Put Down.” Journal of Popular Culture 9, no. 1 (Summer 1975): 219/121-31/33. 20th century; New Journalists; Magazines, books; Dishonesty of New Journalism.
 Wakefield, Dan. “The Personal Voice and the Impersonal Eye.” The Reporter as Artist: A Look at the New Journalism Controversy. Ed. Ronald Weber. New York: Hastings House, 1974. 39–48.

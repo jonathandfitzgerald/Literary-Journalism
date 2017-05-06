@@ -1,15 +1,15 @@
-source("functions.R")
+source("../functions.R")
 ### BEGIN SECONDARY LITERATURE ###
 
 #Read in txt file and separate each line of Sims Bibliography (http://normansims.com/wp-content/uploads/2014/05/Bibliography-of-Literary-Journalism-Scholarship-and-Articles.pdf)
-SimsBib = scan("data/SimsBib.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "SimsBib")
+SimsBib = scan("../data/SimsBib.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "SimsBib")
 
 #Read in txt file and separate each line of LJS Bibliography of scholarship (https://www.dropbox.com/s/3a1wilg8lxngag5/LJS_Biblio_v120301.pdf?dl=0)
-LJBib = scan("data/LJSBib.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "LJSBib")
+LJBib = scan("../data/LJSBib.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "LJSBib")
 
 
 #Read in txt file and separate each line of LJS Bibliography of Scholarship update (Fall 2011) (http://ialjs.journalism.ryerson.ca/wp-content/uploads/2012/01/125-127_SelectedBibliographyMaguire-2.pdf)
-LJBib2 = scan("data/LJSBib2.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "LJSBib2")
+LJBib2 = scan("../data/LJSBib2.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "LJSBib2")
 
 
 #Combine Sims and LJS Bibs, remove duplicates
@@ -31,7 +31,7 @@ allSecondary <- rbind(LJBib, SimsBib, LJBib2) %>% mutate(Year=gsub(".*(\\d{4}).*
 ### BEGIN PRIMARY LITERATURE ###
 
 #Read in txt file and separate each line of Primary (from Sims bibliography)
-LJPrimDF = scan("data/LJPrimary.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "LJPrimary")
+LJPrimDF = scan("../data/LJPrimary.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "LJPrimary")
 LJPrimDF = LJPrimDF %>% mutate(Year=gsub(".*(\\d{4}).*","\\1",.)) %>% 
   mutate("Year" = as.numeric(Year)) %>% 
   mutate(author=gsub("((^[a-zA-Z]+( [a-zA-Z])?[a-zA-Z]*)|(^[a-zA-Z\u00C0-\u017F]*)|(^[a-zA-Z]+(’[a-zA-Z])?[a-zA-Z]*)), ([A-Za-z]{1,20}|[A-Za-z]{1,20}).*","\\1",.)) %>% 
@@ -42,7 +42,7 @@ LJPrimDF = LJPrimDF %>% mutate(Year=gsub(".*(\\d{4}).*","\\1",.)) %>%
 
 
 #Read in txt file and separate each line of Primary (from Art of Fact TOC)
-AoFtocDF = scan("data/ArtofFactTOC.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "AoFTOC")
+AoFtocDF = scan("../data/ArtofFactTOC.txt", character(0), sep = "\n") %>% data.frame() %>% mutate(Source = "AoFTOC")
 AoFtocDF = AoFtocDF %>% mutate(Year=gsub(".*(\\d{4}).*","\\1",.)) %>% 
   mutate("Year" = as.numeric(Year)) %>% 
   mutate(title=gsub("(^from )(.*)( /).*|(^.*)( /).*","\\2\\4",.)) %>%

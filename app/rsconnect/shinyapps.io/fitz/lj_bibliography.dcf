@@ -1,0 +1,11 @@
+name: lj_bibliography
+title: LJ Bibliography
+account: fitz
+server: shinyapps.io
+appId: 178295
+bundleId: 817452
+url: https://fitz.shinyapps.io/lj_bibliography/
+when: 1494086042.90471
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: CopyOfBibliographic Analysis.R|pregame.R
