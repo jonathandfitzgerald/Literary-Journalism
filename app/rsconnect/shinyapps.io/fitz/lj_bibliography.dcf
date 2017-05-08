@@ -3,9 +3,9 @@ title: LJ Bibliography
 account: fitz
 server: shinyapps.io
 appId: 178295
-bundleId: 817558
+bundleId: 818649
 url: https://fitz.shinyapps.io/lj_bibliography/
-when: 1494096251.46782
+when: 1494208923.5201
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: CopyOfBibliographic Analysis.R|pregame.R
